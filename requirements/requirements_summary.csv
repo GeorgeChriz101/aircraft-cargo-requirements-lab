@@ -1,0 +1,20 @@
+Requirement_ID,Type,Customer_Need,Description,Verification_Method
+SYS-REQ-001,System,CN-001,Initiate cargo door opening when valid conditions are satisfied,Test
+SYS-REQ-002,System,CN-001,Initiate cargo door closing when valid conditions are satisfied,Test
+SYS-REQ-003,System,CN-002,Provide door position indication,Test
+SYS-REQ-004,System,CN-003,Provide locked indication only when closed and locked,Test
+SYS-REQ-005,System,CN-004,Prevent movement during unsafe conditions,Test
+SYS-REQ-006,System,CN-005,Provide sensor or actuator fault indication,Test
+SYS-REQ-007,System,CN-006,Operate when valid aircraft power is available,Test and Inspection
+SYS-REQ-008,System,CN-007,Provide fault information for maintenance troubleshooting,Inspection and Test
+SYS-REQ-009,System,CN-008,Prevent simultaneous open and close commands,Test
+SYS-REQ-010,System,CN-001;CN-008,Stop opening at fully open position,Test
+SYS-REQ-011,System,CN-001;CN-008,Stop closing at fully closed position,Test
+SYS-REQ-012,System,CN-003;CN-004,Only command locking after door is confirmed closed,Test
+INT-REQ-001,Interface,CN-001,Provide OPEN and CLOSE operator commands,Inspection
+INT-REQ-002,Interface,CN-002,Provide door position status,Inspection
+INT-REQ-003,Interface,CN-003,Provide lock status,Inspection
+INT-REQ-004,Interface,CN-001,Provide actuator OPEN CLOSE and STOP commands,Inspection
+INT-REQ-005,Interface,CN-003,Provide LOCK and UNLOCK commands,Inspection
+INT-REQ-006,Interface,CN-002;CN-005,Provide status and fault indications,Inspection
+INT-REQ-007,Interface,CN-006,Provide aircraft electrical power interface,Inspection
