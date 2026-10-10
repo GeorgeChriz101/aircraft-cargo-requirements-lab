@@ -1,0 +1,13 @@
+Test_Case,Requirement,Execution_Status,Result,Notes
+TC-001,SYS-REQ-001,Not Executed,Pending,Valid open command test
+TC-002,SYS-REQ-002,Not Executed,Pending,Valid close command test
+TC-003,SYS-REQ-003,Not Executed,Pending,Door position indication test
+TC-004,SYS-REQ-004,Not Executed,Pending,Locked status confirmation test
+TC-005,SYS-REQ-005,Not Executed,Pending,Unsafe operation inhibit test
+TC-006,SYS-REQ-006,Not Executed,Pending,Fault indication test
+TC-007,SYS-REQ-007,Not Executed,Pending,Aircraft power interface test
+TC-008,SYS-REQ-008,Not Executed,Pending,Maintenance troubleshooting information test
+TC-009,SYS-REQ-009,Not Executed,Pending,Simultaneous direction protection test
+TC-010,SYS-REQ-010,Not Executed,Pending,Fully open limit protection test
+TC-011,SYS-REQ-011,Not Executed,Pending,Fully closed limit protection test
+TC-012,SYS-REQ-012,Not Executed,Pending,Locking sequence test
